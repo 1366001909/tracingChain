@@ -13,6 +13,7 @@ public class TracingchainApplication {
     public static void main(String[] args) {
         System.out.println("项目一新增的修改-------测试冲突");
         System.out.println("项目二新增的修改");
+        System.out.println("hot_fix分支新增的修改");
         SpringApplication.run(TracingchainApplication.class, args);
         P2PServer p2PServer = SpringContextUtils.getBean("p2PServer", P2PServer.class);
         //启动服务
